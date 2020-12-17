@@ -9,6 +9,8 @@ As entradas são feitas na pasta "inputs" e pelo arquivo "grades.csv". A entrada
  A entrada pode ter quantos alunos for desejado.
  
  Os arquivos de saída estão na pasta "outputs" no arquivo "orderedGrades.txt", além de serem impressos no terminal do usuário também.
+  
+Não deve-se alterar a localização de nenhum arquivo de entrada e saída, pois foram programados para serem lidos/gerados automaticamente nos caminhos especificados, incorrendo em falha de execução do programa caso sejam alterados.
  
 No exemplo de saída, há um erro:
 
@@ -20,3 +22,4 @@ No exemplo de saída, há um erro:
   NULL 7 68
   
   Julia e Marcela tem a mesma nota, 9. Então os alunos devem ser ordenados em ordem alfabética ("Se houver mais de um aluno com a mesma nota (8-10) atribuído a eles, ordene esses alunos em particular por seus nomes em ordem alfabética."), de forma que Julia deveria vir antes de Marcela. Esse erro não foi reproduzido no programa desenvolvido, que atende a condição proposta.
+
