@@ -7,7 +7,9 @@ As entradas são feitas na pasta "inputs" e pelo arquivo "grades.csv". A entrada
  A entrada pode ter quantos alunos for desejado.
  
  Os arquivos de saída estão na pasta "outputs" no arquivo "orderedGrades.txt", além de serem impressos no terminal do usuário também.
- 
+   
+Não deve-se alterar a localização de nenhum arquivo de entrada e saída, pois foram programados para serem lidos/gerados automaticamente nos caminhos especificados, incorrendo em falha de execução do programa caso sejam alterados.
+
 No exemplo de saída, há um erro:
 
   Maria 10 99
