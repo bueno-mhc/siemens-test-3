@@ -1,14 +1,20 @@
-## Getting Started
+Para execução do  projeto, é necessário executar em um compilador java o arquivo em "problem3/src/App.java", classe principal do projeto.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+As entradas são feitas na pasta "inputs" e pelo arquivo "grades.csv". A entrada de dados segue modelo CSV, sendo a primeira linha um header para as entradas, para indicar como devem ser inseridos os valores, no formato a seguir:
+  
+  (int) ID, (string) Nome, (float) Valor
+  
+ A entrada pode ter quantos alunos for desejado.
+ 
+ Os arquivos de saída estão na pasta "outputs" no arquivo "orderedGrades.txt", além de serem impressos no terminal do usuário também.
+ 
+No exemplo de saída, há um erro:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+  Maria 10 99
+  Marcela 9 81
+  Julia 9 88
+  Andreia 8 78
+  NULL 7 63
+  NULL 7 68
+  
+  Julia e Marcela tem a mesma nota, 9. Então os alunos devem ser ordenados em ordem alfabética ("Se houver mais de um aluno com a mesma nota (8-10) atribuído a eles, ordene esses alunos em particular por seus nomes em ordem alfabética."), de forma que Julia deveria vir antes de Marcela. Esse erro não foi reproduzido no programa desenvolvido, que atende a condição proposta.
