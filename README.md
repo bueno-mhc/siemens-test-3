@@ -15,10 +15,15 @@ Não deve-se alterar a localização de nenhum arquivo de entrada e saída, pois
 No exemplo de saída, há um erro:
 
   Maria 10 99
+ 
   Marcela 9 81
+  
   Julia 9 88
+  
   Andreia 8 78
+  
   NULL 7 63
+  
   NULL 7 68
   
   Julia e Marcela tem a mesma nota, 9. Então os alunos devem ser ordenados em ordem alfabética ("Se houver mais de um aluno com a mesma nota (8-10) atribuído a eles, ordene esses alunos em particular por seus nomes em ordem alfabética."), de forma que Julia deveria vir antes de Marcela. Esse erro não foi reproduzido no programa desenvolvido, que atende a condição proposta.
