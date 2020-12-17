@@ -1,0 +1,6 @@
+Maria 10 99
+Julia 9 88
+Marcela 9 81
+Andreia 8 78
+NULL 7 63
+NULL 7 68
